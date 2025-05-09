@@ -1,0 +1,30 @@
+risk_analysis_task:
+  description: >
+    Use the provided tool to get a customer risk level using the customer social security number {ssn} and customer name {name}.
+  expected_output: >
+    A risk level value which can be low, medium or high. 
+
+
+credit_analysis_task:
+  description: >
+    Use the provided tool to get a customer credit score using the customer social security number {ssn}.
+  expected_output: >
+    A credit score which is a number between 300 and 850.
+
+
+loan_approval_task:
+  description: >
+    Evaluate both data elements, the customer risk level and credit score to make a loan approval or rejection decision
+    Ensure that the customer meet the bank standards for loan approval in order to minimize the 
+    likelihood of loan default. Make sure to review the decision statement to make sure is clear and consistent.
+  expected_output: >
+    A loan approval or rejection decision includind the reasons for the decision.
+
+
+customer_communications_task:
+  description: >
+    Summarize loan approval decision into a customer friendly cordial response in bullet point format
+    If the loan was rejected, Only offer loan options that require a cosigner, for example - Cosigner required Yes
+    Review your response carefully and make sure you comply with these rules. In particular, the rule about consigner required
+  expected_output: >
+    A well-structured response explaining the loan approval decision or if the loan was rejected, offer alternative loan options.

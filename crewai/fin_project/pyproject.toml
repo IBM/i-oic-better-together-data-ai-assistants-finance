@@ -1,0 +1,28 @@
+[project]
+name = "fin_project"
+version = "0.1.0"
+description = "fin_project using crewAI"
+authors = [{ name = "Jorge Gonzalez Orozco", email = "" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai-tools==0.44.0",
+    "crewai[tools]==0.119.0",
+    "flask==3.1.0",
+    "flask-cors==5.0.1",
+    "flask-jwt-extended==4.7.1",
+    "ibm-watsonx-ai==1.2.7",
+]
+
+[project.scripts]
+fin_project = "fin_project.main:run"
+run_crew = "fin_project.main:run"
+train = "fin_project.main:train"
+replay = "fin_project.main:replay"
+test = "fin_project.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

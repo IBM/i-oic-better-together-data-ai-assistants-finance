@@ -1,0 +1,10 @@
+*** Bank Loan Approval Rules ***
+
+In order to minimize the likelihood of loan default, the bank will not approve 
+any loan with a risk level value of "high", regardless of the credit score.
+
+The bank will approve loans with risk level value of "medium" only when 
+the credit score is above 700. Do not use additional conditions to approve the loan.
+
+The bank will approve loans with risk level value of "low" only when 
+the credit score is above 600. Do not use additional conditions to approve the loan.
