@@ -24,7 +24,7 @@ loan_approval_task:
 customer_communications_task:
   description: >
     Summarize loan approval decision into a customer friendly cordial response in bullet point format
-    If the loan was rejected, Only offer loan options that require a cosigner, for example - Cosigner required Yes
-    Review your response carefully and make sure you comply with these rules. In particular, the rule about consigner required
+    If the loan was rejected, a cosigner is always required
+    Review your response very carefully. If you mention a cosigner, only offer loan options that require a cosigner
   expected_output: >
     A well-structured response explaining the loan approval decision or if the loan was rejected, offer alternative loan options.

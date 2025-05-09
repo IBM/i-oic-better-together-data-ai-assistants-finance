@@ -2,11 +2,11 @@
 
 ## Disclaimer
 * This is PoC quality code not meant to be deployed as-is in Production
-* Clearly it can be improved.
+* Clearly it can be improved
 
 ## PreRequisites
 
-Install Node.js v18 or higher
+Make sure you have Node.js v18 or higher installed
 
    ```bash
    # code tested with node v23.10.0
@@ -16,15 +16,14 @@ Install Node.js v18 or higher
 ## Getting Started
 
 
-1. Install client-side dependencies from the **frontend** folder
+1. Open a Terminal window and install the client-side dependencies from the **frontend** folder
 
    ```bash
-    # change directory to frontend
-    cd frontend
+    # Make sure you are in the **frontend** folder
     npm install
    ```
 
-2. Install server-side dependencies and return to the **frontend** folder
+2. From the **server** folder, install server-side dependencies and return to the **frontend** folder
 
     ```bash
     cd server
@@ -32,17 +31,16 @@ Install Node.js v18 or higher
     cd ..
     ```
 
-3. You should already have MongoDb running from the backend. The frontend will leverage the same DB to store authentication and app. data
+3. You should already have MongoDb running from the backend. The frontend will leverage the same DB to store authentication and application data
 
 
-4. Review the `.env.example` file. This example environment variables are already configured to leverage 
-the backend MongoDB. You should not need to change it. Create your `.env` environment variables file from the example
+4. Review the `.env.example` file. This file has environment variables that are already configured to leverage the backend MongoDB. You should not need to change it. Create the `.env` environment variables file from the example
 
     ```bash
     cp .env.example .env
     ```
 
-5. Start the development server
+5. Start the web server by running the command below
 
     ```bash
     npm run dev

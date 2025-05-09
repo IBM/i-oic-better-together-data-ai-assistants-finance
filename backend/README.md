@@ -5,7 +5,7 @@
 
 ## Disclaimer
 * This is PoC quality code not meant to be deployed as-is in Production
-* Clearly it can be improved.
+* Clearly it can be improved
 
 ### Prerequisites
 
@@ -16,17 +16,18 @@
 ### Create DB & load data
 
 * Open a Terminal window
+* Make sure you are in the **backend** folder
 * Start MongoDB following the instructions in the file **mongo-db.sh**
 
 ### Run the APIs
 
-* install required packages and run APIs
+* Run the following command that will install the required packages and run APIs
 
 ```bash
 uv run api-code.py
 ```
 
-### Load Customer Sample Data
+### Load Sample Customer Data
 
 Open a separate Terminal window:
 * load the sample data into MongoDB by running **api-data.sh**

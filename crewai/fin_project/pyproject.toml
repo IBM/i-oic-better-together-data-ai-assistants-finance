@@ -5,8 +5,8 @@ description = "fin_project using crewAI"
 authors = [{ name = "Jorge Gonzalez Orozco", email = "" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
-    "crewai-tools==0.44.0",
-    "crewai[tools]==0.119.0",
+    "crewai-tools==0.36.0",
+    "crewai==0.108.0",
     "flask==3.1.0",
     "flask-cors==5.0.1",
     "flask-jwt-extended==4.7.1",
